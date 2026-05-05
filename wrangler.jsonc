@@ -1,0 +1,8 @@
+{
+  "name": "lofi-blog",
+  "compatibility_date": "2025-01-01",
+  "preview_urls": false,
+  "assets": {
+    "directory": "."
+  }
+}
