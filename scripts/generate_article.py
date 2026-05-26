@@ -59,7 +59,7 @@ def pick_topic(existing: list[str]) -> dict:
 }}"""
 
     res = client.messages.create(
-        model="claude-opus-4-7",
+        model="claude-opus-4-5",
         max_tokens=512,
         messages=[{"role": "user", "content": prompt}],
     )
@@ -89,7 +89,7 @@ def write_article_body(meta: dict) -> str:
 - ブロッククオートは印象的な一文を1つ入れる"""
 
     res = client.messages.create(
-        model="claude-opus-4-7",
+        model="claude-opus-4-5",
         max_tokens=4096,
         messages=[{"role": "user", "content": prompt}],
     )
