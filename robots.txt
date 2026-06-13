@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://2222morimori-afk.github.io/lofi-blog/sitemap.xml
